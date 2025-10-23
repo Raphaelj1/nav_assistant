@@ -22,6 +22,7 @@ The system is designed with an offline-first approach and runs core perception t
 
 The system is built using a modular pipeline architecture:
 
+```
 Input Layer
 ├── Camera Feed (CameraService)
 ├── Voice Input (Wake Word + Speech-to-Intent)
@@ -46,11 +47,13 @@ Output Layer
 ├── Voice feedback system
 ├── Audio alerts
 ├── UI state updates
+```
 
 ---
 
 ## 🏗️ Project Structure
 
+```
 lib/
 ├── app/ # App configuration and routing
 ├── constants/ # App-wide constants and config
@@ -74,6 +77,7 @@ lib/
 ├── storage/ # Local persistence (calibration + preferences)
 ├── utils/ # Image processing and helpers
 └── main.dart
+```
 
 ---
 
