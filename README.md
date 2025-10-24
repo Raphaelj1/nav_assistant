@@ -8,7 +8,7 @@ The system is designed with an offline-first approach and runs core perception t
 
 ## 🚀 Key Features
 
-- Real-time object detection using YOLOv8 segmentation (TFLite)
+- Real-time object detection using YOLOv8n segmentation (TFLite)
 - Depth estimation using MiDaS (TFLite)
 - Structured object perception with bounding boxes and segmentation masks
 - Offline voice control (wake word + speech-to-intent)
